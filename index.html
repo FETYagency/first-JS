@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/index.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+
+
+
+  <main class="main__card">
+    <img style="display: block; margin-inline-end: auto;" src="images/icon-star.svg" alt="#">
+
+    <article>
+      <h1 class="article__header">How did we do?</h1>
+      <p class="article__body">
+        Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+      </p>
+    </article>
+
+    <form action="">
+
+
+      <div class="inputs">
+
+
+        <div class="rate">
+          <input type="radio" name="RATE"  id="one" >
+          <label for="one">1</label>
+        </div>
+
+        <div class="rate">
+          <input type="radio" name="RATE" id="two" >
+          <label for="two">2</label>
+        </div>
+
+        <div class="rate">
+          <input type="radio" name="RATE" id="three" >
+          <label for="three">3</label>
+        </div>
+
+        <div class="rate">
+          <input type="radio" name="RATE" id="four" >
+          <label for="four">4</label>
+        </div>
+
+        <div class="rate">
+          <input type="radio" name="RATE" id="five" >
+          <label for="five">5</label>
+
+
+        </div>
+
+        
+      </div>
+      
+      <a class="__btn">Submit</a>
+
+      
+    </form>
+
+
+
+    
+    
+    
+  </main>
+
+
+
+
+
+  <div class="for__JS">
+
+
+    <img src="images/illustration-thank-you.svg" alt="#">
+    <div class="slected__rate">
+      <p>You selected <span class="selected__num"></span> out of 5</p>
+    </div>
+
+    <article>
+      <h1 class="article__header">Thank you!</h1>
+      <p class="article__body">
+        We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!
+      </p>
+    </article>
+
+    
+  </div>
+
+
+
+
+  
+  <script src="JS/index.js"></script>
+</body>
+</html>
